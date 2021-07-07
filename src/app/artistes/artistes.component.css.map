@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,KAAK;EACd,MAAM,EAAE,GACZ;CAAC",
+    "sources": [
+        "artistes.component.scss"
+    ],
+    "names": [],
+    "file": "artistes.component.css"
+}

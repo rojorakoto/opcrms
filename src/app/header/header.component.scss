@@ -1,0 +1,323 @@
+.header_menu {
+    z-index: 9000;
+}
+
+.header_menu {
+    position: fixed;
+    right: 0;
+}
+
+.header_menu {
+    max-width: 80px;
+    right: 20px;
+    top: 0;
+}
+
+.logo {
+    -webkit-filter: drop-shadow(5px 5px 5px #000000c0);
+    filter: drop-shadow(5px 5px 5px #000000c0);
+    position: fixed;
+    z-index: 9500;
+    left: 50px;
+    top: 10px;
+}
+
+#menu_btn_accueil {
+    position: relative;
+    display: block;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 120px;
+    height: 100px;
+}
+
+#menu_btn_accueil .line {
+    background: rgba(255, 255, 255, 0.5);
+    display: block;
+    position: absolute;
+    left: 20px;
+    border-radius: 4px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 80px;
+    height: 3px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#menu_btn_accueil:hover .line {
+    background: #ffffff;
+}
+
+#menu_btn_accueil .line.line-1 {
+    top: 20px;
+}
+
+#menu_btn_accueil .line.line-2 {
+    top: 45px;
+}
+
+#menu_btn_accueil .line.line-3 {
+    top: 70px;
+}
+
+#menu_btn_accueil.active .line {
+    background: #4D4F5C;
+}
+
+#menu_btn_accueil:hover .line-1 {
+    -webkit-transform: translateY(-4px);
+    -moz-transform: translateY(-4px);
+    -ms-transform: translateY(-4px);
+    -o-transform: translateY(-4px);
+    transform: translateY(-4px);
+}
+
+#menu_btn_accueil:hover .line-3 {
+    -webkit-transform: translateY(4px);
+    -moz-transform: translateY(4px);
+    -ms-transform: translateY(4px);
+    -o-transform: translateY(4px);
+    transform: translateY(4px);
+}
+
+#menu_btn_accueil.active .line-1 {
+    -webkit-transform: translateY(25px) translateX(0) rotate(45deg);
+    -moz-transform: translateY(25px) translateX(0) rotate(45deg);
+    -ms-transform: translateY(25px) translateX(0) rotate(45deg);
+    -o-transform: translateY(25px) translateX(0) rotate(45deg);
+    transform: translateY(25px) translateX(0) rotate(45deg);
+}
+
+#menu_btn_accueil.active .line-2 {
+    opacity: 0;
+}
+
+#menu_btn_accueil.active .line-3 {
+    -webkit-transform: translateY(-25px) translateX(0) rotate(-45deg);
+    -moz-transform: translateY(-25px) translateX(0) rotate(-45deg);
+    -ms-transform: translateY(-25px) translateX(0) rotate(-45deg);
+    -o-transform: translateY(-25px) translateX(0) rotate(-45deg);
+    transform: translateY(-25px) translateX(0) rotate(-45deg);
+}
+
+#menu_btn_accueil {
+    height: 64px;
+    width: 64px;
+    right: -10px;
+    top: -10px;
+}
+
+#menu_btn_accueil {
+    height: 80px;
+    width: 80px;
+    top: 0;
+}
+
+#menu_btn_accueil .line {
+    left: 0;
+}
+
+#menu_btn_accueil {
+    right: 40px;
+    top: 0;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .header_menu {
+        max-width: 80px;
+        right: 0;
+        top: 0;
+    }
+    #menu_btn_accueil {
+        right: 40px;
+        top: 0;
+    }
+}
+
+nav {
+    padding-top: 100px;
+    height: 100%;
+    width: 500px;
+    position: fixed;
+    right: -500px;
+    top: 0;
+    background: #f2f2f2;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+nav {
+    z-index: 8000;
+}
+
+nav.active {
+    right: 0;
+}
+
+nav ul,
+nav ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #4D4F5C;
+    display: block;
+    width: 60%;
+    font-size: 100%;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+
+.effect1 a {
+    overflow: hidden;
+}
+
+.effect1 a span {
+    background: #f2f2f2 none repeat scroll 0 0;
+    display: block;
+    padding: 14px 50px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.effect1 a::before {
+    background: #ffffff none repeat scroll 0 0;
+    color: #ffffff;
+    content: attr(data-hover);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 14px 20px;
+    position: absolute;
+    transform: translateX(-25%);
+    z-index: -1;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.effect1 a.gris::before {
+    background: #D92534 none repeat scroll 0 0;
+    // color: #4D4F5C;
+}
+
+.effect1 a.beige::before {
+    background: #F2EDA2 none repeat scroll 0 0;
+}
+
+.effect1 a.cendre::before {
+    background: #F20505 none repeat scroll 0 0;
+}
+
+.effect1 a.sombre::before {
+    background: #A6A6A6 none repeat scroll 0 0;
+}
+
+.effect1 a.profond::before {
+    background: #0D0D0D none repeat scroll 0 0;
+}
+
+.effect1 a.noir::before {
+    background: #D92534 none repeat scroll 0 0;
+}
+
+.effect1 a:hover span,
+.effect1 a:focus span {
+    transform: translateX(100%);
+}
+
+.effect1 a:hover::before,
+.effect1 a:focus::before {
+    transform: translateX(0%);
+}
+
+.ombre {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.ombre {
+    z-index: 5000;
+}
+
+#nav_rapide {
+    z-index: 7000;
+}
+
+#nav_rapide {
+    width: auto;
+    height: auto;
+    position: fixed;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#nav_rapide ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#nav_rapide ul li {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+#nav_rapide ul li a {
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    color: #fafafa;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+#nav_rapide ul li a:hover,
+#nav_rapide ul li a:focus {
+    background: #000000;
+}
+
+@media screen and (max-width: 39.9375em) {
+    #nav_rapide {
+        display: none;
+    }
+}

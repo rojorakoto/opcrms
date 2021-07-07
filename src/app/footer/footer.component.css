@@ -1,0 +1,40 @@
+footer {
+  clear: both;
+  padding: 60px 40px;
+  background: #eeeeee;
+  position: relative;
+}
+
+footer,
+footer a {
+  color: #999999;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+footer,
+footer a:hover {
+  color: #000000;
+}
+
+.footer_menu ul {
+  list-style-type: none;
+}
+
+.footer_menu ul li {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.footer_menu ul li a {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 90%;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 28px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=footer.component.css.map */

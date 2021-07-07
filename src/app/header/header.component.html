@@ -1,0 +1,53 @@
+<header>
+    <div class="logo">
+        <a href="<app-accueil></app-accueil>"><img [src]="logoImage" width="50%" min-width="350px" height="auto"></a>
+    </div>
+
+    <div class="header_menu" (click)="toggle()">
+        <a href="#" title="Menu" id="menu_btn_accueil" class="{{status ? 'active' : ''}}">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+        </a>
+    </div>
+</header>
+
+
+
+<nav class="animated fadeInRight effect1 {{status ? 'active' :''}}">
+    <ul>
+        <li><a class="gris" data-hover="Accueil" href="#accueil"><span><mat-icon>home</mat-icon>Accueil</span></a></li>
+        <li><a class="beige" data-hover="Artistes" href="#artistes"><span><mat-icon>face</mat-icon>Artistes</span></a></li>
+        <li><a class="sombre" data-hover="Infos" href="#informations"><span><mat-icon>info</mat-icon>Infos</span></a></li>
+        <li><a class="cendre" data-hover="Programme" href="#programme"><span><mat-icon>today</mat-icon>Programme</span></a></li>
+        <li><a class="profond" data-hover="Billetterie" href="#informations"><span><mat-icon>credit_card</mat-icon>Billetterie</span></a></li>
+        <li><a class="noir" data-hover="Contact" href="#contact"><span><mat-icon> call</mat-icon>Contact</span></a></li>
+    </ul>
+</nav>
+
+<div id="content">
+    <div id="nav_rapide">
+        <ul>
+            <li>
+                <a class="help" title="Accueil" href="#accueil"></a>
+            </li>
+            <li>
+                <a class="help" title="Infos" href="#informations"></a>
+            </li>
+            <li>
+                <a class="help" title="Programmes" href="#programmes"></a>
+            </li>
+            <li>
+                <a class="help" title="Artistes" href="#artistes"></a>
+            </li>
+            <li>
+                <a class="help" title="Hôtel" href="#hotel"></a>
+            </li>
+            <li>
+                <a class="help" title="Contact" href="#contact"></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="ombre animated fadeInLeft duration-sm" (click)="toggle()" [style.display]="status ? 'block' : 'none'"></div>

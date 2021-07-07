@@ -1,0 +1,315 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    position: relative;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("../../assets/EventBannerFond.png");
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    background-image: url("https://www.golfsdumaroc.com/img/hotel/es-saadi-hotel-marrakech-maroc.jpg");
+    min-height: 100%;
+}
+
+.bgimg-3 {
+    background-image: url("https://www.goandance.com/es/media/images-manager/Blog%20138/kizomba2.jpg");
+    min-height: 215em;
+}
+
+.cover {
+    position: absolute;
+    left: 10em;
+    top: 13%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.date {
+    position: absolute;
+    left: 10em;
+    top: 13%;
+    text-align: center;
+    width: 100%;
+}
+
+.logo-mrgeorges a img {
+    position: absolute;
+    left: 75px;
+    top: 80%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.logo-essaadi a img {
+    position: absolute;
+    left: 225px;
+    top: 80%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 75em) {
+    .cover,
+    .date {
+        left: 0;
+        top: 20%;
+    }
+    ;
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+.caption {
+    position: center;
+    left: 0;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    vertical-align: middle;
+}
+
+.caption_present {
+    position: absolute;
+    left: 0;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption_present span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 95%;
+    width: 100%;
+    position: absolute;
+}
+
+.card {
+    padding: 0.5em;
+    margin: 2em
+}
+
+.contact {
+    margin-bottom: 0
+}
+
+.contact .section__title,
+.contact .section__intro-text {
+    color: #FFF;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+// .contact__wrapper {
+//     max-width: 61.125em;
+//     padding: 2.5em 0
+// }
+@media (min-width: 48em) {
+    .contact__wrapper {
+        padding: 4.6875em 0
+    }
+}
+
+@media (min-width: 75em) {
+    .contact__wrapper {
+        padding: 9.375em 0
+    }
+}
+
+.contact-form {
+    font-size: .875em
+}
+
+@media (min-width: 48em) {
+    .contact-form {
+        font-size: 1em
+    }
+}
+
+@media (min-width: 75em) {
+    .contact-form {
+        font-size: 1.125em
+    }
+}
+
+.contact-form__container {
+    margin-bottom: 0.75em
+}
+
+.contact-form__label {
+    display: block;
+    color: #FFF;
+    margin-bottom: 0.2em;
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form__field {
+    display: block;
+    padding: 0.5em;
+    color: #4d4d4d;
+    border: 0;
+    background: #FFF;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: background 0.2s ease;
+    transition: background 0.2s ease;
+    border-radius: 0;
+    -webkit-appearence: none
+}
+
+.contact-form__field:focus {
+    background: #EEE
+}
+
+.contact-form__field--message {
+    height: 8em;
+    margin-bottom: 2em
+}
+
+.contact-form__button {
+    font-size: 1.125em;
+    font-weight: bold;
+    color: #FFF;
+    border: 0;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    background: -webkit-gradient(linear, left top, right top, from(#ec1919), to(#610101));
+    background: linear-gradient(90deg, #ec1919, #610101);
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
+    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease
+}
+
+.contact-form__button:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+#accueil .bloc_suiv a {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 190%;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.bloc_suiv {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.bloc_suiv a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 180%;
+    margin: 0 auto 40px auto;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    animation: mybounce 0.7s ease infinite alternate;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+@-webkit-keyframes mybounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes mybounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+.bloc_suiv a:hover {
+    margin-bottom: 35px;
+    color: #ffffff;
+    border-color: #ffffff;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.bloc_suiv {
+    // position: relative;
+}
+
+.bloc_suiv a {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.bloc_suiv a span {
+    font-size: 100%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+}
